@@ -14,7 +14,7 @@ img{
     
     
 }
-.container{
+main{
     background-color: white;
     width:   300px ;
     height:  450px;
@@ -22,16 +22,29 @@ img{
     padding: 15px;
     border-radius: 20px;
 }
-.text{
-    margin: auto;
-    width: 70%;
-    padding-top: 20px;  
 
-   }
- p{
+span{
+    text-decoration: underline;
+
+}
+
+  
+ p.main-paragraph{
+    font-weight: 700;
     margin: auto;
-    color: grey;
-    padding-top: 20px;  
+    color: black;
+    text-align: center;
+    padding: 20px;
     
  }
+ p.description{
+    font-weight: 400;
+    margin: auto;
+    color: grey;
+    text-align: center;
+    width: 90%;
+ }
 
+p.footer{
+    te
+}
